@@ -1,0 +1,164 @@
+body {
+	font-family: Verdana, Arial, sans-serif;
+	color:#aaa;
+	font-size: 12px;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: #DA1A27;
+}
+
+#content {
+	position: fixed;
+	top: 10px;
+	bottom: 46px;
+	left: 20px;
+	right: 20px;
+
+	box-sizing: border-box;
+	padding: 50px 101px;
+	
+	border: 1px solid #555;
+	border-bottom: none;
+	border-right: none;
+	border-radius: 9px;
+
+	background-color: #222;
+}
+
+#carousel {
+	display: none;
+	position: fixed;
+	top: 15px;
+	left: 25px;
+	bottom: 50px;
+	right: 25px;
+	
+	margin: 0;
+
+	z-index: 1;
+	background: #222;
+}
+.carousel-inner {
+	height: 100%;
+}
+
+#carousel .item {
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+#carousel .close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	
+	text-shadow: none;
+	color: white;
+	opacity:.5;
+	font-size: 2.5em;
+}
+
+#carousel .close:hover {
+	opacity:.9;
+}
+
+.v-align-wrap {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.v-align {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#carousel .item img {
+  width: auto;
+  height : auto;
+  max-height: 100%;
+  max-width: 100%;
+  vertical-align:middle;
+  margin:auto;
+}
+
+.home-title {
+	position: fixed;
+	width: 250px;
+	top: 50px;
+	left: 30px;
+}
+
+.home-artwork {
+	position: fixed;
+	width: 250px;
+	top: 120px;
+	left: 30px;
+}
+
+#menu {
+	position: fixed;
+	top: 50px;
+	right: 100px;
+	left: 320px;
+}
+
+#menu .gallery {
+	margin-left: 30px;
+}
+
+#menu .btn-group {
+	display: block;
+}
+#menu .btn {
+	box-sizing: border-box;
+
+	border: 1px solid #555;
+	border-bottom-color: black;
+	border-right-color: black;
+	background: #222;
+	color: #DA1A27;
+	text-shadow: none;
+}
+
+#menu .btn:first-child {
+	border-radius: 8px 8px 0 0;
+}
+#menu .btn:last-child {
+	border-radius: 0 0 8px 8px;
+}
+
+#footer::before {
+	display: block;
+	content: " ";
+
+	position: fixed;
+	bottom: 39px;
+	left: 20px;
+	right: 20px;
+	
+	border: none;
+	border-bottom: 1px solid #da1a27;
+}
+
+#footer {
+	position: fixed;
+	bottom: 10px;
+	left: 20px;
+	right: 20px;
+	height: 12px;
+	
+	text-align: center;
+	border: 1px solid #444444;
+	border-radius: 4px;
+	color: #888888;
+	font-size: 9px;
+	padding:5px;
+	margin: 0;
+}
+
+
