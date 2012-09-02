@@ -2,6 +2,8 @@ $(function () {
 	var menu = $("#menu"),
 		carousel = $("#carousel"),
 		carInner = carousel.find(".carousel-inner"),
+        title = $("#carousel-title"),
+        to,
 		count = 0;
 
 	addGalleries(galleryData, menu);
@@ -19,27 +21,40 @@ $(function () {
 			if (gallery.photos) {
 				var elem = $("<a class='btn btn-gallery'>" + gallery.title + "</a>").appendTo(menu);
 				elem.attr("href", "#g" + count);
-				addPhotos(gallery.photos, "g" + count);
+				addPhotos(gallery.photos, "g" + count, gallery.title);
 				count++;
 			}
 		}
 	}
 
-	function addPhotos(photos, id) {
+	function addPhotos(photos, id, title) {
 		for (i in photos) {
 			var photo = photos[i];
-			var img = $("<div />").appendTo(carInner);
+			var item = $("<div class='item' title='" + title + "' />").appendTo(carInner);
 			if (i == 0) {
-				img.attr("id", id); // first image in given list will be referenced
+				item.attr("id", id); // first image in given list will be referenced
 			}
-			img.addClass("item");
 			
-			img.append($("<img>").prop("src", photo).wrap("<div class='v-align'/>").parent().wrap("<div class='v-align-wrap'/>").parent());
+			$("<img src='" + photo + "'>")
+                .wrap("<div class='v-align'/>").parent()
+                .wrap("<div class='v-align-wrap'/>").parent()
+                .appendTo(item);
 		}
 	}
+    carousel.on("slid", function () {
+        var newTitle = carousel.find(".active").prop("title");
+        if (newTitle !== title.text()) {
+            title.text(newTitle).fadeIn();
+            clearTimeout(to);
+            to = setTimeout(function () {
+                title.fadeOut();
+            }, 3000);
+        }
+    });
 	$(document.body).delegate('.btn.btn-gallery', 'click', function () {
 		$(".active").removeClass("active"); // deactive preceding active element
 		$($(this).attr("href")).addClass("active");
+        carousel.trigger("slid");
 		carousel.carousel({
 			interval: false
 		}).slideDown();
