@@ -53,7 +53,7 @@ var data = {
 			"gallery/86.jpg"
 		]
 	}],
-	ad: [{
+	illustration: [{
 		title: "Personnages",
 		artworks: [
 			"gallery/83.jpg",
