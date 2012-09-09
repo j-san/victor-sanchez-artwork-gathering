@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* victor-sanchez-artwork-gathering */ = {
+		activeExec = 0;
+		executables = (
+			ABE9A82015F3A3C500B1FFA3 /* victor-sanchez-artwork-gathering */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = ABE9A82015F3A3C500B1FFA3 /* victor-sanchez-artwork-gathering */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* victor-sanchez-artwork-gathering */;
+		codeSenseManager = ABE9A85915F3A3C900B1FFA3 /* Code sense */;
+		executables = (
+			ABE9A82015F3A3C500B1FFA3 /* victor-sanchez-artwork-gathering */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 368288833;
+			PBXWorkspaceStateSaveDate = 368288833;
+		};
+		sourceControlManager = ABE9A85815F3A3C900B1FFA3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	ABE9A82015F3A3C500B1FFA3 /* victor-sanchez-artwork-gathering */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "victor-sanchez-artwork-gathering";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	ABE9A85815F3A3C900B1FFA3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	ABE9A85915F3A3C900B1FFA3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
