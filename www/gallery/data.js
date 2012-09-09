@@ -45,20 +45,20 @@ var data = {
 			"gallery/Esquisses/Repros0010.jpg",
 			"gallery/Esquisses/Repros0011.jpg",
 			"gallery/Esquisses/Repros0012.jpg",
-			"gallery/Esquisses/Repros0013.jpg",
-			"gallery/Esquisses/Repros0014.jpg",
-			"gallery/Esquisses/Repros0015.jpg",
-			"gallery/Esquisses/Repros0016.jpg"
+			"gallery/Esquisses/repros0013.jpg",
+			"gallery/Esquisses/repros0014.jpg",
+			"gallery/Esquisses/repros0015.jpg",
+			"gallery/Esquisses/repros0016.jpg"
 		]
 	}, {
 		title: "Geishas",
 		artworks: [
 			"gallery/Geishas/Déshabillage de Geisha.jpg",
 			"gallery/Geishas/Geiko.jpg",
-			"Gallery/Geishas/geishas-12.jpg",
-			"Gallery/Geishas/geishas-4.jpg",
-			"Gallery/Geishas/Guerrière Geisha.jpg",
-			"Gallery/Geishas/PICT0013.jpg",
+			"gallery/Geishas/01.jpg",
+			"gallery/Geishas/02.jpg",
+			"gallery/Geishas/03.jpg",
+			"gallery/Geishas/04.jpg"
 		]
 	}, {
 		title: "Femmes... à nos Hymnes",
