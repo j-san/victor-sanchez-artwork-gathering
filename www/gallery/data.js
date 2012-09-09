@@ -10,7 +10,22 @@ var data = {
 	}, {
 		title: "Draperies",
 		artworks: [
-			"gallery/86.jpg"
+			"gallery/Draperies/Drapé indiscret.jpg",
+			"gallery/Draperies/DSC_0079.jpg",
+			"gallery/Draperies/L'éveil.jpg",
+			"gallery/Draperies/Le début monde.jpg",
+			"gallery/Draperies/Mi-figue-Modifier.jpg",
+			"gallery/Draperies/Nuits d'été.jpg",
+			"gallery/Draperies/Oasis.jpg",
+			"gallery/Draperies/Orgueuil de femme.jpg",
+			"gallery/Draperies/PICT0012.jpg",
+			"gallery/Draperies/PICT0013.jpg",
+			"gallery/Draperies/Premiers pas.jpg",
+			"gallery/Draperies/Pudeur secrète.jpg",
+			"gallery/Draperies/Qu'elle heure.jpg",
+			"gallery/Draperies/Reposes-toi.jpg",
+			"gallery/Draperies/Soeurs jumelles.jpg",
+			"gallery/Draperies/Une ou deux.jpg"
 		]
 	}, {
 		title: "Exquises esquisses",
@@ -30,10 +45,10 @@ var data = {
 			"gallery/Esquisses/Repros0010.jpg",
 			"gallery/Esquisses/Repros0011.jpg",
 			"gallery/Esquisses/Repros0012.jpg",
-			"gallery/Esquisses/repros0013.jpg",
-			"gallery/Esquisses/repros0014.jpg",
-			"gallery/Esquisses/repros0015.jpg",
-			"gallery/Esquisses/repros0016.jpg"
+			"gallery/Esquisses/Repros0013.jpg",
+			"gallery/Esquisses/Repros0014.jpg",
+			"gallery/Esquisses/Repros0015.jpg",
+			"gallery/Esquisses/Repros0016.jpg"
 		]
 	}, {
 		title: "Geishas",
@@ -70,7 +85,7 @@ var data = {
 	erotic: [{
 		title: "Peintures érotiques",
 		artworks: [
-			"gallery/Erotiques/Belle masquée.jpg",
+            "gallery/Erotiques/Belle masquée.jpg",
             "gallery/Erotiques/Bondage.jpg",
             "gallery/Erotiques/Chaussure rouge.jpg",
             "gallery/Erotiques/Cours de langue.jpg",
