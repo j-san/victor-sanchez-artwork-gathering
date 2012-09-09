@@ -33,9 +33,7 @@ $(function () {
 				item.attr("id", id); // first image in given list will be referenced
 			}
 			
-			$("<img src='" + artwork + "'>")
-                .wrap("<div class='v-align'/>").parent()
-                .wrap("<div class='v-align-wrap'/>").parent()
+			$('<img src="' + artwork + '">')
                 .appendTo(item);
 		}
 	}

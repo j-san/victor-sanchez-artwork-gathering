@@ -46,8 +46,8 @@ blockquote cite {
 	right: 20px;
 
 	box-sizing: border-box;
-	padding: 50px 101px;
 	
+	margin-left: 0;
 	border: 1px solid #555;
 	border-bottom: none;
 	border-right: none;
@@ -71,6 +71,7 @@ blockquote cite {
 }
 #carousel h1 {
 	position: absolute;
+	z-index: 1;
 }
 .carousel-inner {
 	height: 100%;
@@ -97,16 +98,6 @@ blockquote cite {
 	opacity:.9;
 }
 
-.v-align-wrap {
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-.v-align {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 #carousel .item img {
   width: auto;
   height : auto;
@@ -117,37 +108,24 @@ blockquote cite {
 }
 
 .home-title {
-	position: fixed;
-	width: 250px;
-	top: 50px;
-	left: 30px;
+	width: 100%;
 }
 
 .home-artwork {
-	position: fixed;
-	width: 250px;
-	top: 120px;
-	left: 30px;
+	width: 100%;
 }
 
 #navigation {
-	position: fixed;
-	width: 250px;
-	top: 300px;
-	left: 30px;
+	width: 100%;
 }
 
 #main {
-	position: fixed;
-	top: 30px;
-	right: 40px;
-	left: 320px;
-	bottom: 50px;
+	height: 100%;
     overflow-y: scroll;
 }
 
 #main .content {
-	margin-left: 30px;
+	padding-left: 30px;
 }
 
 #main .btn-group {
