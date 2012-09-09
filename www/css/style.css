@@ -11,6 +11,33 @@ a {
 	color: #DA1A27;
 }
 
+h3 {
+    font-size: 18px;
+    text-decoration: underline;
+}
+h4 {
+    font-size: 16px;
+    margin-top: 28px;
+}
+
+dt, dd {
+    display: inline-block;
+}
+dt {
+    margin-left: 20px;
+    width: 110px;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 200px;
+}
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
 #content {
 	position: fixed;
 	top: 10px;
@@ -103,23 +130,30 @@ a {
 	left: 30px;
 }
 
+#navigation {
+	position: fixed;
+	width: 250px;
+	top: 300px;
+	left: 30px;
+}
+
 #main {
 	position: fixed;
-	top: 50px;
-	right: 100px;
+	top: 30px;
+	right: 40px;
 	left: 320px;
 	bottom: 50px;
     overflow-y: scroll;
 }
 
-#main .gallery {
+#main .content {
 	margin-left: 30px;
 }
 
 #main .btn-group {
 	display: block;
 }
-.btn {
+.btn, #navigation a  {
 	box-sizing: border-box;
 
 	border: 1px solid #555;
@@ -128,6 +162,14 @@ a {
 	background: #222;
 	color: #DA1A27;
 	text-shadow: none;
+}
+.btn:hover, #navigation a:hover  {
+	background: #555;
+	color: #EEE;
+}
+#navigation .active > a  {
+	background: #DA1A27;
+	color: #EEE;
 }
 
 .btn:first-child {
@@ -142,7 +184,7 @@ a {
 	content: " ";
 
 	position: fixed;
-s	bottom: 39px;
+	bottom: 39px;
 	left: 20px;
 	right: 20px;
 	

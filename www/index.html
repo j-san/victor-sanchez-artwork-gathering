@@ -7,7 +7,14 @@
 	<meta content="Victor, Sanchez, artiste peintre, Bruxelles, Belgique, peinture d'art, artiste, peintre, illustrateur, art, peinture, illustration, publicité, tableau, acrylique, dessin, hyper-réaliste, réalisme contemporain, belge, belgique, dessinateur, maquette, maquetiste, figuration, couleur, toile, contemporain, atelier, couleur,  realiste, toile, technique, graphisme, femme, portrait, modÃ¨le, creation, nu, drapé" name="keywords">
 	<meta content="Victor Sanchez" name="author">
 	<meta content="art, peinture, illustration" name="Category">
-	<meta name="viewport" content="width=device-width" />
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes">
+    
+    <link rel="apple-touch-icon" href="icon.png"/>
+    <link rel="apple-touch-startup-image" href="splash.png" />
 
 	<link rel="stylesheet" media="screen" href="bootstrap/css/bootstrap.css" />
 	<link rel="stylesheet" media="screen" href="bootstrap/css/bootstrap-responsive.css" />
@@ -18,41 +25,233 @@
 	<div id="content">
 		<img class="home-title" src="img/victor sanchez.jpg" title="Victor Sanchez" alt="Signature">
 		<img class="home-artwork" src="img/autoportraitvsanchez.jpg">
-        <div id="main">
-            <div id="menu">
+        <div id="navigation">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#bio">Notice biographique</a></li>
+                <li><a href="#classic">Arts Classique</a></li>
+                <li><a href="#manifeste">Manifeste</a></li>
+                <li><a href="#erotic">Arts Erotique</a></li>
+                <li><a href="#illustration">Illustration</a></li>
+                <li><a href="#cv">Curriculum vitae</a></li>
+            </ul>
+        </div>
+        <div id="main" data-spy="scroll" data-target="#navigation">
+            <h2 id="bio">Notice biographique</h2>
+            <div class="content">
+                <p>Victor Sanchez naît à Gijon, en Espagne, le 17 décembre 1959. Il grandit à Bruxelles et, 
+                dès 1975, y fréquente l'Académie Royale des Beaux Arts, où il reçoit plusieurs premiers prix 
+                et diverses mentions tout au long de ses études. Par ailleurs, il complète sa formation en 
+                fréquentant l'Académie de Watermael-Boitsfort (croquis) et l'Académie d'Anderlecht (cours de 
+                dessin documentaire de M. Debie).</p>
+
+                <p>Diplômé de l'Académie en 1980, il perfectionne ses connaissances de l'image et de la lumière à
+                l'Ecole de Photographie de la Ville de Bruxelles à Laeken. Parallèlement, il entame une 
+                carrière dans le domaine des arts graphiques et audio-visuels.</p>
+
+                <p>Dès 1990, il opte pour le statut d'illustrateur indépendant et collabore avec de nombreuses
+                agences de publicité. Reconnu par le milieu professionnel pour sa technique irréprochable et 
+                l'excellence de son travail, il se spécialise dans l'illustration hyper-réaliste.</p>
+
+                <p>Après une première exposition collective en 1992, au Passage 44 à Bruxelles, 
+                l'artiste qui sommeille en lui se révèle. Depuis, les expositions se succèdent : 
+                Citadelle de Namur (1994), Galerie du Nid d'Aigle à Profondeville (1995), Galerie Art 
+                Cadia à Bruxelles (1996), Galerie des Tanneurs à Namur (1997), Centre International d'Art 
+                Contemporain à Liège (1998), Festival du Film Fantastique de Bruxelles (1999), Cinquième 
+                Biennale des Rencontres de l'Art Bruxellois (2000), Hotel Inter Continental de Bruxelles (2001), 
+                Galerie G-Loft à Bruxelles (2003 à 2005), Galerie Extrapole à Liège (2007), Galerie Artz 21 à 
+                Barcelone et Galerie Pictura Aeterna à Bruxelles (2008), etc.</p>
+
+                <p>Son art teinté de poésie et de surréalisme est accueilli très favorablement par de 
+                prestigieux critiques d'art, d'Anita Nardon à Stéphane Rey. Cité dans de nombreux ouvrages 
+                de référence, notamment le Dictionnaire des Artistes Plasticiens de Belgique de Paul Piron 
+                et l'Annuaire des Artistes et Galeries de Belgique, il conserve toutefois un œil critique sur 
+                son art. Cet infatigable perfectionniste, après avoir exploré l'érotisme subtil des corps drapés, 
+                ne cesse de réinventer les hymnes à la Femme, dans une peinture qui sort délibérément des sentiers battus.</p>
             </div>
-            <h2>Notice biographique</h2>
+            <h2 id="classic">Arts Classique</h2>
 
-            <p>Victor Sanchez naît à Gijon, en Espagne, le 17 décembre 1959. Il grandit à Bruxelles et, 
-            dès 1975, y fréquente l'Académie Royale des Beaux Arts, où il reçoit plusieurs premiers prix 
-            et diverses mentions tout au long de ses études. Par ailleurs, il complète sa formation en 
-            fréquentant l'Académie de Watermael-Boitsfort (croquis) et l'Académie d'Anderlecht (cours de 
-            dessin documentaire de M. Debie).</p>
+            <h2 id="manifeste">Manifeste</h2>
+            <div class="content">
+                <blockquote>
+                    L'art n'est pas chaste<br/>
+                    ou bien s'il l'est<br/>
+                    ce n'est pas de l'art<br/>
+                    <p><cite>Picasso</cite></p>
+                </blockquote>
 
-            <p>Diplômé de l'Académie en 1980, il perfectionne ses connaissances de l'image et de la lumière à
-            l'Ecole de Photographie de la Ville de Bruxelles à Laeken. Parallèlement, il entame une 
-            carrière dans le domaine des arts graphiques et audio-visuels.</p>
+                    
 
-            <p>Dès 1990, il opte pour le statut d'illustrateur indépendant et collabore avec de nombreuses
-            agences de publicité. Reconnu par le milieu professionnel pour sa technique irréprochable et 
-            l'excellence de son travail, il se spécialise dans l'illustration hyper-réaliste.</p>
+                <p>Dans "Mon Cœur mis à nu", Baudelaire raconte : "Tous les imbéciles de la bourgeoisie qui prononcent sans cesse les mots :
+                "immoral, immoralité, moralité dans l'art", et autres bêtises me font penser à Louise Villedieu, putain à cinq francs, qui,
+                m'accompagnant une fois au Louvre où elle n'était jamais allée, se mit à rougir, à se couvrir le visage et, me tirant à chaque 
+                instant par la manche, me demandait devant de nombreuses statues et plusieurs tableaux immortels, comment on pouvait étaler 
+                publiquement de pareilles indécences."</p>
 
-            <p>Après une première exposition collective en 1992, au Passage 44 à Bruxelles, 
-            l'artiste qui sommeille en lui se révèle. Depuis, les expositions se succèdent : 
-            Citadelle de Namur (1994), Galerie du Nid d'Aigle à Profondeville (1995), Galerie Art 
-            Cadia à Bruxelles (1996), Galerie des Tanneurs à Namur (1997), Centre International d'Art 
-            Contemporain à Liège (1998), Festival du Film Fantastique de Bruxelles (1999), Cinquième 
-            Biennale des Rencontres de l'Art Bruxellois (2000), Hotel Inter Continental de Bruxelles (2001), 
-            Galerie G-Loft à Bruxelles (2003 à 2005), Galerie Extrapole à Liège (2007), Galerie Artz 21 à 
-            Barcelone et Galerie Pictura Aeterna à Bruxelles (2008), etc.</p>
+                <p>De tous temps, presque tous les artistes ont représenté des scènes érotiques. Chaque artiste a ses passions et ses préférences 
+                que lui dicte son expérience personnelle et non les conventions sociales. L'érotisme fait partie de leur vie, aussi est-il normal 
+                qu'ils l'expriment.</p>
 
-            <p>Son art teinté de poésie et de surréalisme est accueilli très favorablement par de 
-            prestigieux critiques d'art, d'Anita Nardon à Stéphane Rey. Cité dans de nombreux ouvrages 
-            de référence, notamment le Dictionnaire des Artistes Plasticiens de Belgique de Paul Piron 
-            et l'Annuaire des Artistes et Galeries de Belgique, il conserve toutefois un œil critique sur 
-            son art. Cet infatigable perfectionniste, après avoir exploré l'érotisme subtil des corps drapés, 
-            ne cesse de réinventer les hymnes à la Femme, dans une peinture qui sort délibérément des sentiers battus.</p>
-    </div>
+                <p>Victor Sanchez ne déroge pas à la règle. Comme eux, il a aussi une production plus intime qui ravit les amateurs de ce genre 
+                de peinture. Dans cette partie du site, Victor nous fait donc découvrir sa peinture érotique.</p>
+            </div>
+            <h2 id="erotic">Arts Erotique</h2>
+
+            <h2 id="illustration">Illustration</h2>
+
+            <h2 id="cv">Curriculum vitae</h2>
+            <div class="content">
+                <h3>Expositions individuelles :</h3>
+                <dl>
+                    <p><dt>Février 2010</dt><dd>Galerie Libertine au Sablon à Bruxelles - "Petits portraits intimes"</dd></p>
+                    <p><dt>Octobre 2008</dt><dd>Galerie Pictura Aeterna au Petit-Sablon à Bruxelles.</dd></p>
+                    <p><dt>Avril 2004</dt><dd>Galerie G-Loft - " Exquises esquisses ".</dd></p>
+                    <p><dt>Mai 2002</dt><dd>Galerie Autre Reg'Art à Bruxelles.</dd></p>
+                    <p><dt>Juin '99</dt><dd>Galerie Ca m'dit - " Images et Passion ".</dd></p>
+                    <p><dt>Septembre '98</dt><dd>Galerie P Art à Gand.</dd></p>
+                    <p><dt>Avril '97</dt><dd>Galerie Ca m'dit - " Femmes... à nos Hymnes ".</dd></p>
+                    <p><dt>Avril '96</dt><dd>Galerie Art Cadia - " Draperies ".</dd></p>
+                </dl>
+
+                <h3>Expositions collectives :</h3>
+
+                <h4>2011</h4>
+                <dl>
+                    <p><dt>juin</dt><dd>Exposition "Caché" à la galerie ConsulArt à Anvers à l'occasion de l'Antwerp Pride</dd></p>
+                    <p><dt>mars</dt><dd>Exposition "Sex Toy or not Sex Toy" à la galerie Libertine à Bruxelles</dd></p>
+                    <p><dt>janvier</dt><dd>Exposition "Black and Withe - Skin and Soul" à la galerie Libertine à Bruxelles</dd></p>
+                </dl>
+
+                <h4>2010</h4>
+                <dl>
+                    <p><dt>novembre</dt><dd>Exposition "Les dessous chics" à la galerie Libertine à Bruxelles</dd></p>
+                    <p><dt>octobre</dt><dd>Retrospective des 3 années de la Galerie Pictura Aeterna</dd></p>
+                </dl>
+
+
+                <h4>2009</h4>
+                <dl>
+                    <p><dt>novembre</dt><dd>"Les Nocturnes du Sablon" à la galerie Pictura Aeterna</dd></p>
+                    <p><dt>juin</dt><dd>Expo "Erotisme et Art en Asie" à la galerie Libertine à Bruxelles</dd></p>
+                </dl>
+
+                <h4>2008</h4>
+                <dl>
+                    <p><dt>Novembre</dt><dd>"Les Nocturnes du Sablon" à la galerie Pictura Aeterna</dd></p>
+                    <p><dt>octobre</dt><dd>Expo "Fantasia Erotica Japonesa" à la galerie Artz21 à Barcelone</dd></p>
+                    <p><dt>juin</dt><dd>Inauguration de la galerie Artz21 à Barcelone</dd></p>
+                    <p><dt>mars</dt><dd>Maison des Artistes à Anderlecht avec le Royal Groupe d'Art Evolution</dd></p>
+                </dl>
+
+                <h4>2007</h4>
+                <dl>
+                    <p><dt>septembre</dt><dd>Théâtre de la Toison d'Or à Bruxelles à l'occasion du "Monologue du vagin"</dd></p>
+                    <p><dt>janvier</dt><dd>Exposition "Faux et usage de faux !" à la galerie Ext@pole à Liège</dd></p>
+                </dl>
+
+                <h4>2006</h4>
+                <dl>
+                    <p><dt>avril</dt><dd>Exposition "Art Bizarre" à Essen - Allemagne</dd></p>
+                    <p><dt>mai</dt><dd>Fétish Xpérience à la galerie Ext@pole à Liège</dd></p>
+                </dl>
+
+                <h4>2005</h4>
+                <dl>
+                    <p><dt>Juin</dt><dd>Salon Art du Nu à l'Espace Champerret - Paris</dd></p>
+                    <p><dt>octobre</dt><dd>Organise l'expo "Artists in the boudoir" à la galerie "De Va et Vient" à Anvers</dd></p>
+                    <p><dt>octobre</dt><dd>Expo "Carré blanc" à la galerie G-Loft à Neder-Over-Heembeek</dd></p>
+                    <p><dt>novembre</dt><dd>Expo "Clair de femme" à la galerie G-Loft à Neder-Over-Heembeek</dd></p>
+                </dl>
+
+                <h4>2004</h4>
+                <dl>
+                    <p><dt>Février</dt><dd>Expo « Lupan'art » à Bruxelles</dd></p>
+                    <p><dt>Mai</dt><dd>6ème édition de Laeken Bouge</dd></p>
+                    <p><dt>Août</dt><dd>Invité au parcours d'artistes de Celles – Hermitage</dd></p>
+                    <p><dt>Septembre</dt><dd>Invité à l'expo « Vitrine de l'Art » à Beauraing</dd></p>
+                    <p><dt>Octobre</dt><dd>7ème Biennale : « Rencontre de l'Art Bruxellois »</dd></p>
+                    <p><dt>Novembre</dt><dd>Fortis Banque à Kortrijk : « Artiesten voor Kinderen »</dd></p>
+                </dl>
+
+                <h4>2003</h4>
+                <dl>
+                    <p><dt>Février</dt><dd>Galerie G-Loft à Bruxelles</dd></p>
+                    <p><dt>Mai</dt><dd>5ème édition de Laeken Bouge</dd></p>
+                    <p><dt>Juin</dt><dd>« Art On Cows » : réalisation d'une des vaches de la Ville de Bruxelles : « COWMIUM » pour l'association « Laeken Découvertes »</dd></p>
+                    <p><dt>Août</dt><dd>Invité au parcours d'artistes dans la région d'Houyet – salle d'exposition des briquetteries de Wanlin</dd></p>
+                    <p><dt>Septembre</dt><dd>Fortis Banque à Kortrijk : « Artiesten voor Kinderen »</dd></p>
+                </dl>
+
+                <h4>2002</h4>
+                <dl>
+                    <p><dt>Mai</dt><dd>4ème édition de « Laeken Bouge »</dd></p>
+                    <p><dt>Octobre</dt><dd>Rencontre de l'Art Bruxellois, 6ème biennale</dd></p>
+                </dl>
+
+                <h4>2001</h4>
+                <dl>
+                    <p><dt>Avril</dt><dd>Maison Stepman - repris parmis les sélectionés de l'exposition « Janus »</dd></p>
+                    <p><dt>Mai</dt><dd>3ème edition de Laeken Bouge</dd></p>
+                    <p><dt>Juin</dt><dd>Hôtel Inter-Continental à Bruxelles</dd></p>
+                </dl>
+
+                <h4>2000</h4>
+                <dl>
+                    <p><dt>Mai</dt><dd>Participe à la 2ème edition de « Laeken Bouge »</dd></p>
+                    <p><dt>Octobre</dt><dd>Rencontre de l'Art Bruxellois, 5ème biennale</dd></p>
+                </dl>
+
+                <h4>1999</h4>
+                <dl>
+                    <p><dt>Mars</dt><dd>Exposition Fantastique à l'occasion du Festival International du Film Fantastique à Bruxelles</dd></p>
+                    <p><dt>Mai</dt><dd>Exposition au Silex : « Les Copains du Ça m'dit »</dd></p>
+                    <p><dt>Octobre</dt><dd>Pyramides de la Place Rogier à Bruxelles</dd></p>
+                </dl>
+
+                <h4>1998</h4>
+                <dl>
+                    <p><dt>Janvier</dt><dd>Hôtel Inter-Continental à Bruxelles</dd></p>
+                    <p><dt>Janvier</dt><dd>Exposition des primés de la Biennale de Malte à la Galerie du Nid d'Aigle à Profondeville</dd></p>
+                    <p><dt>Avril</dt><dd>L'érotisme dans l'Art d'aujourd'hui au Centre International d'Art Contemporain à Liège</dd></p>
+                    <p><dt>Avril</dt><dd>Hommage à Thomas Owen à l'Hôtel Inter-Continental à Bruxelles</dd></p>
+                    <p><dt>Mai</dt><dd>Abbaye de Forest</dd></p>
+                    <p><dt>Juin</dt><dd>Galerie d'Enfer à Bruxelles</dd></p>
+                    <p><dt>Novembre</dt><dd>Galerie du Nid d'Aigle à Profondeville</dd></p>
+                    <p><dt>Décembre</dt><dd>Exposition Religieuse à la Galerie d'Enfer</dd></p>
+                </dl>
+
+                <h4>1997</h4>
+                <dl>
+                    <p><dt>Janvier</dt><dd>Galerie du Nid d'Aigle à Profondeville</dd></p>
+                    <p><dt>Février</dt><dd>Galerie des Tanneurs à Namur</dd></p>
+                    <p><dt>Avril</dt><dd>Galerie Patenier à Namur</dd></p>
+                    <p><dt>Juillet</dt><dd>Galerie Reinold Ketelbuters à Bruxelles : salon d'été</dd></p>
+                    <p><dt>Juillet</dt><dd>DC-World Bank à Washington</dd></p>
+                    <p><dt>Juillet</dt><dd>Galerie Echancrure à Bruxelles : salon d'été</dd></p>
+                    <p><dt>Septembre</dt><dd>Biennale de Malte 1997</dd></p>
+                    <p><dt>Septembre</dt><dd>Poble Espanyol de Monjuïc à Barcelone - Espagne</dd></p>
+                    <p><dt>Décembre</dt><dd>Participe à la « Grolla d'Oro » à Trevisa, Italie</dd></p>
+                </dl>
+
+                <h4>1996</h4>
+                <dl>
+                    <p><dt>Février</dt><dd>Participe parmi les artistes belges à l'exposition « Hommage à l'Europe » à Profondeville</dd></p>
+                    <p><dt>Mars</dt><dd>Pyramides de la Place Rogier à Bruxelles</dd></p>
+                    <p><dt>Mai</dt><dd>Participe parmi les artistes belges à l'exposition « Hommage à l'Europe » à Bayonville - France</dd></p>
+                    <p><dt>Octobre</dt><dd>Rencontre de l'Art Bruxellois, 3ème biennale</dd></p>
+                    <p><dt>Novembre</dt><dd>Galerie Echancrure à l'occasion de la sortie du 6ème volume des «50 Artistes Belges »</dd></p>
+                </dl>
+
+                <h4>1995</h4>
+                <dl>
+                    <p><dt>Février</dt><td>Pyramides de la Place Rogier à Brusselles</dd></p>
+                    <p><dt>Avril</dt><dd>« Galerie du Nid d'Aigle » à Profondeville</dd></p>
+                    <p><dt>Avril</dt><dd>Palais des Expositions à Charleroi</dd></p>
+                    <p><dt>Juin</dt><dd>Galerie Art Cadia à Brusselles</dd></p>
+                    <p><dt>Juillet</dt><dd>Participe comme invité indépendant à l'exposition Palmarès Renaissance au Clos des Arts à Bruxelles</dd></p>
+                    <p><dt>Septembre</dt><dd>Poble Espanyol de Monjuïc à Barcelone - Espagne</dd></p>
+                </dl>
+            </div>
+        </div>
 		<div id="carousel" class="carousel slide">
             <h1 id="carousel-title"></h1>
 			<div class="carousel-inner">
@@ -68,7 +267,7 @@
 
 	<script src="js/jquery-1.8.0.js"></script>
 	<script src="bootstrap/js/bootstrap.js"></script>
-	<script src="js/gallery-data.js"></script>
+	<script src="gallery/data.js"></script>
 	<script src="js/gallery.js"></script>
 </body>
 </html>
