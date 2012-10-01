@@ -10,22 +10,7 @@ var data = {
 	}, {
 		title: "Draperies",
 		artworks: [
-			"gallery/Draperies/Drapé indiscret.jpg",
-			"gallery/Draperies/DSC_0079.jpg",
-			"gallery/Draperies/L'éveil.jpg",
-			"gallery/Draperies/Le début monde.jpg",
-			"gallery/Draperies/Mi-figue-Modifier.jpg",
-			"gallery/Draperies/Nuits d'été.jpg",
-			"gallery/Draperies/Oasis.jpg",
-			"gallery/Draperies/Orgueuil de femme.jpg",
-			"gallery/Draperies/PICT0012.jpg",
-			"gallery/Draperies/PICT0013.jpg",
-			"gallery/Draperies/Premiers pas.jpg",
-			"gallery/Draperies/Pudeur secrète.jpg",
-			"gallery/Draperies/Qu'elle heure.jpg",
-			"gallery/Draperies/Reposes-toi.jpg",
-			"gallery/Draperies/Soeurs jumelles.jpg",
-			"gallery/Draperies/Une ou deux.jpg"
+			"gallery/86.jpg"
 		]
 	}, {
 		title: "Exquises esquisses",
